@@ -2,15 +2,14 @@
 title: 이주호 · 개발 블로그
 ---
 
-# 👋 이주호 — 백엔드 개발자
+#  이주호 — 백엔드 개발자
 
 > Java·Spring / TypeScript·NestJS 기반 백엔드 개발자입니다.
 > **트랜잭션·정합성·성능 최적화**에 관심이 많고, 학습한 것을 기록으로 남깁니다.
 
 > [!info]- 소개 · 링크
 > - 💻 GitHub — [lsc713](https://github.com/lsc713)
-> - 📮 Email — suim5854@gmail.com
-> - 🧭 관심사 — 결제·정산 도메인의 정합성, 검색/RAG, AX 엔지니어링
+
 
 ---
 
