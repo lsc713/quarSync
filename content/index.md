@@ -23,6 +23,8 @@ title: 이주호 · 개발 블로그
 
 > [!example] 검색 · AI
 > - [[임베딩에서 하이브리드 검색까지]] — lexical → semantic → hybrid
+> - [[Reranker 크로스 인코더]] — cross-encoder 재정렬
+> - [[검색 쿼리 변형과 청킹]] — query rewrite · HyDE · title-prepend
 
 > [!note] 프론트엔드
 > - [[리액트]] — 데이터 흐름과 컴포넌트 설계
