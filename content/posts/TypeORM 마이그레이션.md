@@ -1,3 +1,13 @@
+---
+title: TypeORM 마이그레이션
+tags:
+  - typeorm
+  - migration
+  - database
+  - backend
+  - nestjs
+created: 2026-02-17
+---
 
 ## 1. 마이그레이션
 
