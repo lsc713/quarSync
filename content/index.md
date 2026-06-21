@@ -17,6 +17,7 @@ title: 이주호 · 개발 블로그
 
 > [!abstract] 백엔드 · 아키텍처
 > - [[DDD와 헥사고날 아키텍처]] — 도메인 경계를 코드로 강제하기
+> - [[JPA-persistence-context|JPA 영속성 컨텍스트]] — save 후 findById가 SELECT를 안 하는 이유
 > - [[결제 취소 멱등성 설계]] — 중복 취소 요청 차단
 > - [[TypeORM 마이그레이션]] — 스키마 버전 관리의 원리
 > - [[쿠버네티스 정리]] — 파드·컨트롤러·서비스 한눈에
@@ -48,4 +49,4 @@ title: 이주호 · 개발 블로그
 
 ## 🏷️ 태그로 둘러보기
 
-#backend · #architecture · #ddd · #payment · #kubernetes · #search · #algorithm · #frontend
+#backend · #architecture · #ddd · #jpa · #payment · #kubernetes · #search · #algorithm · #frontend
