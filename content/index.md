@@ -37,6 +37,21 @@ title: 이주호 · 개발 블로그
 > - [[7.orchestrator 언제 무엇을 수집할지]] — 조건부 오케스트레이션·OCP
 > - [[8.패키지 구조가 서사를 증명하게]] — analyzer 분할, 결합 7→0
 
+> [!bug] 카오스 엔지니어링 · 관측가능성 (장애를 '구별 가능'하게)
+> - [[0.서문]] — 장애를 단 하나의 신호로 구별되게 만든 벤치
+> - [[1.스택트레이스가 곧 원인인 유일한 순간]] — Class A NPE와 관측 토대
+> - [[2.p99가 튀는데 아무도 안 던졌다]] — 지연·에러비율은 증상이지 원인이 아니다
+> - [[3.200 OK인데 답이 틀렸다]] — 침묵의 오염과 오라클
+> - [[4.top frame은 표면이지 원인이 아니다]] — 오진 함정
+> - [[5.느린 쿼리의 진짜 범인은 인덱스]] — EXPLAIN이 가르고 자동 패치는 멈춘다
+> - [[6.커넥션을 안 돌려줬다]] — HikariCP 풀 고갈
+> - [[7.CPU가 남는데 스로틀당했다]] — k8s CFS 쓰로틀
+> - [[8.컨슈머가 못 따라잡았다]] — Kafka 큐 백프레셔
+> - [[9.멈춘 건 GC였다]] — GC 폭주와 pause rate
+> - [[10.다 멈췄는데 데드락은 아니다]] — 락 경합 vs 데드락(BLOCKED 인구조사)
+> - [[11.요청 하나에 쿼리 1+N]] — N+1을 요청당 쿼리 수로
+> - [[12.캐시 만료에 떼로 몰렸다]] — 캐시 스탬피드 herd
+
 > [!note] 프론트엔드
 > - [[리액트 간단히]] — 데이터 흐름과 컴포넌트 설계
 
@@ -49,4 +64,4 @@ title: 이주호 · 개발 블로그
 
 ## 🏷️ 태그로 둘러보기
 
-#backend · #architecture · #ddd · #jpa · #payment · #kubernetes · #search · #algorithm · #frontend
+#backend · #architecture · #ddd · #jpa · #payment · #kubernetes · #search · #algorithm · #frontend · #chaos-engineering · #observability · #sre
