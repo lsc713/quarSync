@@ -15,6 +15,20 @@ title: 이주호 · 개발 블로그
 
 ## 🗂️ 주제별 글
 
+> [!success] 커머스 백엔드를 카타로 쌓다 (연재) — 불변식·경합·경계
+> - [[0.카타 서문|0. 서문]] — 백엔드 설계를 압축한 세 질문
+> - [[1.돈을 primitive로 두면 언젠가 샌다]] — 값 객체·불변·반올림
+> - [[2.불변식은 누가 지키나]] — 애그리거트 루트
+> - [[3.동시에 사면 초과판매된다]] — 낙관·비관·원자적 UPDATE
+> - [[4.두 번 취소해도 한 번만]] — 멱등성·유니크 제약
+> - [[5.save가 INSERT가 아니었다]] — Persistable·merge 함정
+> - [[6.기다리게 하지 말고 거절하라]] — IN_PROGRESS 상태기계
+> - [[7.트랜잭션 안에서 HTTP를 부르지 마라]] — 외부호출 경계·Port/Adapter
+> - [[8.응답을 못 받았다는 실패가 아니다]] — UNKNOWN이라는 세 번째 상태
+> - [[9.요청 하나에 쿼리 1+N]] — N+1·fetch join
+> - [[10.5만 행을 1행으로]] — EXPLAIN 읽기·인덱스
+> - [[11.같은 걸 두 번 묻지 않기]] — 캐시 두 층
+
 > [!abstract] 백엔드 · 아키텍처
 > - [[DDD와 헥사고날 아키텍처]] — 도메인 경계를 코드로 강제하기
 > - [[JPA-persistence-context|JPA 영속성 컨텍스트]] — save 후 findById가 SELECT를 안 하는 이유
@@ -64,4 +78,4 @@ title: 이주호 · 개발 블로그
 
 ## 🏷️ 태그로 둘러보기
 
-#backend · #architecture · #ddd · #jpa · #payment · #kubernetes · #search · #algorithm · #frontend · #chaos-engineering · #observability · #sre
+#backend · #architecture · #ddd · #jpa · #kata · #concurrency · #idempotency · #payment · #kubernetes · #search · #algorithm · #frontend · #chaos-engineering · #observability · #sre
