@@ -35,6 +35,26 @@ title: 이주호 · 개발 블로그
 > - [[16.설정 한 줄 바꿨더니 세 번 터졌다]] — 분산 캐시(Redis)·직렬화·스탬피드
 > - [[17.두 번 뺐는데 한 번만 빠졌다]] — 격리수준·lost update·락·데드락·MVCC
 
+> [!danger] 부하가 드러낸 설계 (연재) — 실측으로 잡고 증명하고, 관측을 코드로
+> **1막 · 실측으로 잡고 증명하다**
+> - [[00.실측 서문|00. 서문]] — 코드 리뷰가 못 보는 것을 부하가 본다
+> - [[01.사설 IP 9대에 실측 판을 깔다]] — 핫/콜드 분리·single-AZ·SSM
+> - [[02.DB를 키웠더니 병목이 숨었다]] — 인스턴스 사이징
+> - [[03.서버는 필요할 때만, 이미지는 바뀔 때만]] — CI→Docker Hub→온디맨드
+> - [[04.배포가 세 번 터졌다]] — SG 한글·SSM 문서명·개행
+> - [[05.190은 용량이 아니었다]] — Little's law·풀 고갈
+> - [[06.10명인데 7.63%가 실패했다]] — baseline이 잡은 결함
+> - [[07.한 가맹점에 몰았더니 99.9%가 튕겼다]] — 축B 경합 스윕
+> - [[08.데드락인 줄 알았다]] — 기다리지 않는 분산락(fail-fast)
+> - [[09.거절을 대기로 바꿨다]] — 원자 조건부 UPDATE·99.9%→0%
+> - [[10.SSM 고고학을 그만두다]] — 관측을 GUI로
+> - [[11.캐시를 껐는데 아무 일도 안 났다]] — HTTP-in-TX의 숨은 절벽·조기최적화 경계
+> **2막 · 관측을 코드로, 코드를 재측정으로**
+> - [[12.요청당 쿼리 수와 APM]] — black-box 사각을 코드레벨 관측으로(쿼리수·APM)
+> - [[13.동기 홉인 줄 알았다]] — 185 벽의 정체는 커밋수(홉·풀 아님)
+> - [[14.이력 3커밋을 1로]] — 감사 불변식 지키며 배치, 커밋 6→4
+> - [[15.147을 220으로]] — 재측정 확증, 처리량 ×1.5
+
 > [!abstract] 백엔드 · 아키텍처
 > - [[DDD와 헥사고날 아키텍처]] — 도메인 경계를 코드로 강제하기
 > - [[JPA-persistence-context|JPA 영속성 컨텍스트]] — save 후 findById가 SELECT를 안 하는 이유
@@ -84,4 +104,4 @@ title: 이주호 · 개발 블로그
 
 ## 🏷️ 태그로 둘러보기
 
-#backend · #architecture · #ddd · #jpa · #kata · #concurrency · #idempotency · #payment · #kubernetes · #search · #algorithm · #frontend · #chaos-engineering · #observability · #sre
+#backend · #architecture · #ddd · #jpa · #kata · #concurrency · #idempotency · #payment · #kubernetes · #search · #algorithm · #frontend · #chaos-engineering · #observability · #sre · #load-testing · #aws
