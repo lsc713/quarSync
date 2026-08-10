@@ -1,0 +1,14 @@
+{
+  "index": "/Users/juho/Library/Mobile Documents/iCloud~md~obsidian/Documents/다이어리/public/index.md",
+  "index_backup": "/Users/juho/Library/Mobile Documents/iCloud~md~obsidian/Documents/다이어리/public/index.md.backup-reliability-20260810-161133",
+  "index_changed": true,
+  "target": "/Users/juho/Library/Mobile Documents/iCloud~md~obsidian/Documents/다이어리/public/Posts/Reliability",
+  "target_backup": null,
+  "installed_files": [
+    "01.JWT를 한 번만 검증해도 되는가.md",
+    "02.재고는 결제 전에 잡고 취소 뒤에 돌려준다.md",
+    "03.순서를 포기하고 수렴을 택했다.md",
+    "04.10초 폴링을 기다리지 않는 Outbox.md",
+    "05.Redis가 없어도 취소는 계속된다.md"
+  ]
+}

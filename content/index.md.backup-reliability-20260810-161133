@@ -67,13 +67,6 @@ title: 이주호 · 개발 블로그
 > **5막 · 처리량에서 지연으로**
 > - [[22.같은 190인데 p95가 20배 달랐다]] — open vs closed·같은 rps 다른 p95·Little's law·SLO 봉투
 
-> [!warning] 분산 이커머스 신뢰성 설계 (연재) — 빠른 정상 경로보다 실패 뒤의 수렴을 먼저 정하다
-> - [[01.JWT를 한 번만 검증해도 되는가]] — 신뢰 헤더·역할 인가·NetworkPolicy
-> - [[02.재고는 결제 전에 잡고 취소 뒤에 돌려준다]] — 동기 예약·비동기 복원·멱등성
-> - [[03.순서를 포기하고 수렴을 택했다]] — 파티션 키·전체 재계산·주문 행 잠금
-> - [[04.10초 폴링을 기다리지 않는 Outbox]] — wake relay·poll backstop·DEAD·retention
-> - [[05.Redis가 없어도 취소는 계속된다]] — Redis·DB snapshot·원본 HTTP 3단계 조회
-
 > [!note] k3s 수평 스케일아웃 (연재) — 여러 대로 안전하게, 그리고 정말 빨라지나
 > Load가 한 대의 천장(DB 커밋)을 규명했다면, 이 시리즈는 그 시스템을 k3s에 올려 수평으로 늘린다.
 > **1막 · 여러 대로 안전하게**
@@ -141,4 +134,4 @@ title: 이주호 · 개발 블로그
 
 ## 🏷️ 태그로 둘러보기
 
-#backend · #architecture · #ddd · #jpa · #kata · #concurrency · #idempotency · #payment · #kubernetes · #search · #algorithm · #frontend · #chaos-engineering · #observability · #sre · #load-testing · #aws · #reliability · #distributed-systems · #kafka · #outbox
+#backend · #architecture · #ddd · #jpa · #kata · #concurrency · #idempotency · #payment · #kubernetes · #search · #algorithm · #frontend · #chaos-engineering · #observability · #sre · #load-testing · #aws
